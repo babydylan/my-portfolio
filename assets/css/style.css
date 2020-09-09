@@ -1,0 +1,30 @@
+body {
+    background-image: url(../images/blue-ocean-waves.jpg);
+}
+
+.navbar-brand {
+
+}
+
+main {
+    padding: 20px;
+    margin: 50px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    background: whitesmoke;
+    color: black;
+}
+
+h1 {
+    text-align: left;
+}
+
+.me-picture {
+    height: 350px;
+    width: 350px;
+    margin-right: 20px;
+    float: left;
+}
+
+p {}
