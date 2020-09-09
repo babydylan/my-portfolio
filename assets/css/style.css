@@ -9,6 +9,7 @@ body {
 main {
     padding: 20px;
     margin: 50px 20px;
+    margin-right: 10em;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
@@ -21,10 +22,21 @@ h1 {
 }
 
 .me-picture {
-    height: 350px;
-    width: 350px;
+    height: auto;
+    max-width: 100%;
     margin-right: 20px;
+    margin-bottom: 10px;
     float: left;
 }
 
-p {}
+ul {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 20px;
+        margin: 1em 1em auto;
+    }
+}
+
