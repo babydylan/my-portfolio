@@ -27,7 +27,12 @@ h1 {
 
 }
 
-.me-picture, .picture-placeholder{
+.screenshots {
+    width: 350px;
+    height: 350px;
+}
+
+.me-picture, .picture-placeholder .screenshots {
     height: auto;
     max-width: 100%;
     margin-right: 20px;
@@ -41,6 +46,8 @@ h1 {
 ul {
     font-size: 80%;
 }
+
+
 
 footer {
     color: #fff;
